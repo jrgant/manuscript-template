@@ -8,6 +8,7 @@ I am running Kubuntu 22.04.2 LTS, but this should probably work on other Linux o
 
 - [LibreOffice 7.5](https://www.libreoffice.org)
 - [make](https://www.gnu.org/software/make/)
+- [R](https://cran.r-project.org)
 - [quarto](https://quarto.org/docs/get-started/)
 
 The `setup.r` file loads several R packages that can be installed as follows:
