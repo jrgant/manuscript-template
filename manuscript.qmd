@@ -1,21 +1,8 @@
----
-title: "TITLE"
-
-filters:
-  - _pandoc-filters/pagebreak.lua
-  - _pandoc-filters/docx-landscape.lua
-
-crossref:
-  fig-title: "**Figure**"
-  title-delim: "**.**"
-
-execute:
-  echo: false
----
-
 ```{r setup}
 source("setup.r")
 ```
+
+{{< include title-page.qmd >}}
 
 # Abstract
 

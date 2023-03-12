@@ -1,0 +1,21 @@
+---
+title: ""
+
+filters:
+  - _pandoc-filters/pagebreak.lua
+  - _pandoc-filters/docx-landscape.lua
+
+crossref:
+  fig-title: "**Figure**"
+  tbl-title: "**Table**"
+  title-delim: "**.**"
+
+execute:
+  echo: false
+
+---
+
+```{r authors}
+#| eval: params$blind
+print("Shown")
+```
