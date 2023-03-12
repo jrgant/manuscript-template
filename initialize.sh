@@ -1,1 +1,1 @@
-mkdir _drafts _reports _styles data figures
+mkdir _drafts _reports data figures
