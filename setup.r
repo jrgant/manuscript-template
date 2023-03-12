@@ -2,13 +2,20 @@
 ## SETUP ##
 ################################################################################
 
-library(data.table)
-library(gantenmisc)
-library(ggplot2)
-library(ggthemes)
-library(knitr)
-library(kableExtra)
-library(flextable)
+library(pacman)
+p_load(
+  data.table,
+  gantenmisc,
+  ggplot2,
+  ggthemes,
+  knitr,
+  kableExtra,
+  officer,
+  flextable,
+  ftExtra,
+  here,
+  stringr
+)
 
 ## Data and figure directories.
 ddir <- "data"
