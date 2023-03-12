@@ -1,4 +1,4 @@
-# script credit: https://stackoverflow.com/a/73787848/3785109
+-- script credit: https://stackoverflow.com/a/73787848/3785109
 local ooxml = function (s)
   return pandoc.RawBlock('openxml', s)
 end
