@@ -18,9 +18,9 @@ blinded:
 
 timestamp-main:
 	cp ${MANU_TPAGE}.docx 	_drafts/${MANU_TPAGE}_${DATE}.docx
-	cp ${MANU}.docx			_drafts/${MANU}_${DATE}.docx
+	cp ${MANU}.docx		_drafts/${MANU}_${DATE}.docx
 	cp ${MANU_BLIND}.docx 	_drafts/${MANU_BLIND}_${DATE}.docx
-	cp ${MANU}.pdf			_drafts/${MANU}_${DATE}.pdf
+	cp ${MANU}.pdf		_drafts/${MANU}_${DATE}.pdf
 	cp ${MANU_BLIND}.pdf 	_drafts/${MANU_BLIND}_${DATE}.pdf
 
 clean-root:
