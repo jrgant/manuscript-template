@@ -1,0 +1,36 @@
+---
+title: "TITLE"
+
+filters:
+  - _pandoc-filters/pagebreak.lua
+  - _pandoc-filters/docx-landscape.lua
+
+crossref:
+  fig-title: "**Figure**"
+  title-delim: "**.**"
+
+execute:
+  echo: false
+---
+
+```{r setup}
+source("setup.r")
+```
+
+# Abstract
+
+# Introduction 
+
+# Methods
+
+# Results 
+
+# Discussion
+
+# References
+
+<div id="refs"></div>
+
+# Table
+
+# Figures 
