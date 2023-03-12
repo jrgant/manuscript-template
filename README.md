@@ -15,7 +15,13 @@ The `setup.r` file loads several R packages that can be installed as follows:
 
 ```r
 install.packages(c(
-  "data.table", "ggplot2", "ggthemes", "knitr", "kableExtra", "remotes"
+  "data.table",
+  "flextable",
+  "ggplot2",
+  "ggthemes",
+  "knitr",
+  "kableExtra",
+  "remotes"
 ))
 
 remotes::install_github("jrgant/gantenmisc")
