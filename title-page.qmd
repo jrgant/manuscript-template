@@ -13,9 +13,10 @@ crossref:
 execute:
   echo: false
 
+bibliography: references.bib
 ---
 
 ```{r authors}
 #| eval: params$blind
-print("Shown")
+
 ```
